@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36616.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveScrollContainer.WinForms", "AdaptiveScrollContainer.WinForms\AdaptiveScrollContainer.WinForms.csproj", "{7E0475E6-7F69-4A90-B12F-EBA7BC8256ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution files", "Solution files", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveScrollContainer.WPF", "AdaptiveScrollContainer.WPF\AdaptiveScrollContainer.WPF.csproj", "{B4D072FA-8CBE-42AD-AF50-97AC9DC39BA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveScrollContainer.WinForms.Runner", "AdaptiveScrollContainer.WinForms.Runner\AdaptiveScrollContainer.WinForms.Runner.csproj", "{F593985C-166E-40F6-ADC6-6FCB659B5460}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveScrollContainer.WPF.Runner", "AdaptiveScrollContainer.WPF.Runner\AdaptiveScrollContainer.WPF.Runner.csproj", "{0B44807E-6ED3-4A69-B6C7-2D84F8A0D6D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{6846DADC-87D8-4B4A-827E-EE8446237E55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Runners", "Runners", "{25D5ECE8-C062-432C-957C-E9373556D655}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F3DEB016-F814-4E70-818A-A3238DE13951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveScrollContainer.WinForms.Test", "..\tests\AdaptiveScrollContainer.WinForms.Test\AdaptiveScrollContainer.WinForms.Test.csproj", "{9578E511-B5AF-49BE-AF8B-A32D79174D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveScrollContainer.WPF.Test", "..\tests\AdaptiveScrollContainer.WPF.Test\AdaptiveScrollContainer.WPF.Test.csproj", "{7E73BFF9-1E8C-4DA8-ADFC-386214E8F763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E0475E6-7F69-4A90-B12F-EBA7BC8256ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0475E6-7F69-4A90-B12F-EBA7BC8256ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0475E6-7F69-4A90-B12F-EBA7BC8256ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0475E6-7F69-4A90-B12F-EBA7BC8256ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D072FA-8CBE-42AD-AF50-97AC9DC39BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D072FA-8CBE-42AD-AF50-97AC9DC39BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D072FA-8CBE-42AD-AF50-97AC9DC39BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D072FA-8CBE-42AD-AF50-97AC9DC39BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F593985C-166E-40F6-ADC6-6FCB659B5460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F593985C-166E-40F6-ADC6-6FCB659B5460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F593985C-166E-40F6-ADC6-6FCB659B5460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F593985C-166E-40F6-ADC6-6FCB659B5460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B44807E-6ED3-4A69-B6C7-2D84F8A0D6D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B44807E-6ED3-4A69-B6C7-2D84F8A0D6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B44807E-6ED3-4A69-B6C7-2D84F8A0D6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B44807E-6ED3-4A69-B6C7-2D84F8A0D6D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9578E511-B5AF-49BE-AF8B-A32D79174D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9578E511-B5AF-49BE-AF8B-A32D79174D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9578E511-B5AF-49BE-AF8B-A32D79174D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9578E511-B5AF-49BE-AF8B-A32D79174D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E73BFF9-1E8C-4DA8-ADFC-386214E8F763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E73BFF9-1E8C-4DA8-ADFC-386214E8F763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E73BFF9-1E8C-4DA8-ADFC-386214E8F763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E73BFF9-1E8C-4DA8-ADFC-386214E8F763}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E0475E6-7F69-4A90-B12F-EBA7BC8256ED} = {6846DADC-87D8-4B4A-827E-EE8446237E55}
+		{B4D072FA-8CBE-42AD-AF50-97AC9DC39BA4} = {6846DADC-87D8-4B4A-827E-EE8446237E55}
+		{F593985C-166E-40F6-ADC6-6FCB659B5460} = {25D5ECE8-C062-432C-957C-E9373556D655}
+		{0B44807E-6ED3-4A69-B6C7-2D84F8A0D6D6} = {25D5ECE8-C062-432C-957C-E9373556D655}
+		{9578E511-B5AF-49BE-AF8B-A32D79174D08} = {F3DEB016-F814-4E70-818A-A3238DE13951}
+		{7E73BFF9-1E8C-4DA8-ADFC-386214E8F763} = {F3DEB016-F814-4E70-818A-A3238DE13951}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEB9B932-4F93-4A2B-B818-B1CF34CCB3B1}
+	EndGlobalSection
+EndGlobal
