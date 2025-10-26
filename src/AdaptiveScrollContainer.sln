@@ -8,8 +8,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution files", "Solution files", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
+		AdaptiveScrollContainer.snk = AdaptiveScrollContainer.snk
 		..\LICENSE = ..\LICENSE
 		..\README.md = ..\README.md
+		SharedFrameworks.props = SharedFrameworks.props
+		StrongSigningSettings.props = StrongSigningSettings.props
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveScrollContainer.WPF", "AdaptiveScrollContainer.WPF\AdaptiveScrollContainer.WPF.csproj", "{B4D072FA-8CBE-42AD-AF50-97AC9DC39BA4}"

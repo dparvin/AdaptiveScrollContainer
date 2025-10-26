@@ -1,9 +1,9 @@
-﻿<Application x:Class="AdaptiveScrollContainer.WPF.Runner.App"
+﻿<Application x:Class="AdaptiveScrollContainer.Runner.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:AdaptiveScrollContainer.WPF.Runner"
+             xmlns:local="clr-namespace:AdaptiveScrollContainer.Runner"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>

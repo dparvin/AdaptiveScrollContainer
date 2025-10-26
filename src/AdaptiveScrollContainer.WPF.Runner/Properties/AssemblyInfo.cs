@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("AdaptiveScrollContainer.WPF.Runner")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP")]
+[assembly: AssemblyCompany("David Parvin")]
 [assembly: AssemblyProduct("AdaptiveScrollContainer.WPF.Runner")]
-[assembly: AssemblyCopyright("Copyright © HP 2025")]
+[assembly: AssemblyCopyright("Copyright © David Parvin 2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -39,14 +39,3 @@ using System.Windows;
                                               //(used if a resource is not found in the page,
                                               // app, or any theme specific resource dictionaries)
 )]
-
-
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version
-//      Build Number
-//      Revision
-//
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]

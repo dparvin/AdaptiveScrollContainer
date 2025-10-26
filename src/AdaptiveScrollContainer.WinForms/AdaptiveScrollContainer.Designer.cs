@@ -1,6 +1,6 @@
 ﻿namespace AdaptiveScrollContainer
 {
-    partial class UserControl1
+    partial class AdaptiveScrollContainer
     {
         /// <summary>
         /// Required designer variable.
